@@ -1,74 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moyo Header</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500&display=swap"
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"
+     crossorigin="anonymous"/>
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="style.css"
-    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <a
-        class="logo"
-        href="#"
-      >
-        <img
-          src="src/images/logo.png"
-          alt="Logo"
-        />
+    <header class="header">
+      <a class="logo" href="#">
+        <img src="./images/logo.png" alt="Moyo logo" />
       </a>
-      <nav>
+
+      <nav class="nav">
         <ul class="nav__list">
-          <li>
-            <a
-              class="nav__link is-active"
-              href="#"
-            >
-              Apple
-            </a>
+          <li class="nav__item">
+            <a class="nav__link is-active" href="#">Apple</a>
           </li>
-          <li>
-            <a
-              class="nav__link"
-              href="#"
-            >
-              Samsung
-            </a>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Samsung</a>
           </li>
-          <li>
-            <a
-              class="nav__link"
-              href="#"
-            >
-              Smartphones
-            </a>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Smartphones</a>
           </li>
-          <li>
-            <a
-              class="nav__link"
-              data-qa="hover"
-              href="#"
-            >
-              Laptops & computers
-            </a>
+          <li class="nav__item">
+            <a class="nav__link" data-qa="hover"
+             href="#">Laptops &amp; computers</a>
           </li>
-          <li>
-            <a
-              class="nav__link"
-              href="#"
-            >
-              Gadgets
-            </a>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Gadgets</a>
           </li>
         </ul>
       </nav>
